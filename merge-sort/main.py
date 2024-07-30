@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 def mergeSort(numList): 
     """mergeSort: Implementation of the merge sort sorting algorithm
@@ -59,4 +60,5 @@ def main():
 
     print(sortedNums)
 
-main()
+if __name__ == "__main__": 
+    main()
